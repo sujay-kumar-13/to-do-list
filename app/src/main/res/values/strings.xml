@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">To Do List</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">To Do List</string>
+    <string name="second_fragment_label">To Do List</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="toDoTasks">Loading tasks</string>
+    <string name="tasks">Tasks</string>
+    <string name="hint">Write your task here</string>
+    <string name="save">Save</string>
+    <string name="completed">Completed</string>
+    <string name="completedTask">Loading completed tasks</string>
+    <string name="count">0 Selected</string>
+    <string name="selectAll">All</string>
+    <string name="logout">Logout</string>
+    <string name="login">Sign In</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="sign_up"> Sign Up</string>
+    <string name="new_user">New User? </string>
+    <string name="hello_sign_in">Hello, Sign in</string>
+    <string name="forgotpw">Forgot Password?</string>
+    <string name="profile">Profile</string>
+    <string name="clear_completed">Clear Completed tasks</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_system">System Default</string>
+    <string name="theme">Theme</string>
+    <string name="notifications">Notifications</string>
+    <string name="curr_theme">Current Theme</string>
+    <string name="curr_user">Current User</string>
+    <string name="add_task">Add Task</string>
+    <string name="select_time">Select Time</string>
+    <string name="select_date">Select Date</string>
+    <string name="due_date">Due Date</string>
+    <string name="due_time">Due Time</string>
+    <string name="off">Off</string>
+    <string name="battery_optimisation">Disable Battery Optimisation</string>
+    <string name="not_disabled">Not Disabled</string>
+    <string name="cnf_password">Confirm Password</string>
+    <string name="def_time_msg">Default Time of Reminder</string>
+    <string name="def_time">08:00 AM</string>
+    <string name="repeat">Daily Repeat</string>
+</resources>

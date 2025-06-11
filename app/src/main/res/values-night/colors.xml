@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    For Dark theme-->
+
+    <color name="background">#0D1117</color> <!-- Deep Navy -->
+    <color name="card_background">#1B263B</color> <!-- Dark Blue Gray Card -->
+    <color name="task_background">#161B22</color> <!-- Dark Blue -->
+    <color name="task_selected">#22303C</color> <!-- Soft Blue -->
+    <color name="text_primary">#D1D5DB</color> <!-- Light Gray -->
+    <color name="text_secondary">#8B949E</color> <!-- Muted Gray -->
+    <color name="accent">#1E88E5</color> <!-- Blue Accent -->
+    <color name="input_background">#243B55</color> <!-- Darker Blue for Inputs -->
+    <color name="input_hint">#4A6C8A</color> <!-- Muted Blue Gray -->
+    <color name="input_border">#5A738A</color> <!-- Muted Blue Gray -->
+    <color name="overdue_text">#FF6B6B</color> <!-- Soft Red -->
+    <color name="overdue_background">#3A1F1F</color> <!-- Deep Reddish Brown -->
+</resources>

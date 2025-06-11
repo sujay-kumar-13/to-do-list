@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple">#8692f7</color>
+
+    <!-- For light theme -->
+
+    <color name="background">#E3F2FD</color> <!-- Light Sky Blue -->
+    <color name="card_background">#FFFFFF</color> <!-- White Card -->
+    <color name="task_background">#FFFFFF</color> <!-- White -->
+    <color name="task_selected">#B3E5FC</color> <!-- Very Light Blue -->
+    <color name="text_primary">#0D1117</color> <!-- Deep Navy (Dark Blue) -->
+    <color name="text_secondary">#546E7A</color> <!-- Muted Blue-Gray -->
+    <color name="accent">#1E88E5</color> <!-- Blue Accent -->
+    <color name="input_background">#E3ECFF</color> <!-- Light Blue for Input Fields -->
+    <color name="input_hint">#B0C4DE</color> <!-- Soft Gray-Blue -->
+    <color name="input_border">#7A9EB1</color> <!-- Soft Grayish Blue -->
+    <color name="overdue_text">#D32F2F</color> <!-- Dark Red -->
+    <color name="overdue_background">#FFDCDC</color> <!-- Light Reddish Tint -->
+
+</resources>

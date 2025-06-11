@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/TaskListFragment">
+
+    <fragment
+        android:id="@+id/LoginFragment"
+        android:name="com.sujay.apps.todolist.LoginFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_login">
+
+        <action
+            android:id="@+id/action_LoginFragment_to_TaskListFragment"
+            app:destination="@id/TaskListFragment"
+            app:popUpTo="@id/LoginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/TaskListFragment"
+        android:name="com.sujay.apps.todolist.TaskListFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_task_list">
+
+        <action
+            android:id="@+id/action_TaskListFragment_to_AddTaskFragment"
+            app:destination="@id/AddTaskFragment" />
+        <action
+            android:id="@+id/action_TaskListFragment_to_SettingsFragment"
+            app:destination="@id/SettingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/AddTaskFragment"
+        android:name="com.sujay.apps.todolist.AddTaskFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_add_task">
+
+        <action
+            android:id="@+id/action_AddTaskFragment_to_TaskListFragment"
+            app:destination="@id/TaskListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SettingsFragment"
+        android:name="com.sujay.apps.todolist.SettingsFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_settings">
+
+        <action
+            android:id="@+id/action_SettingsFragment_to_TaskListFragment"
+            app:destination="@id/TaskListFragment" />
+        <action
+            android:id="@+id/action_SettingsFragment_to_LoginFragment"
+            app:destination="@id/LoginFragment" />
+    </fragment>
+</navigation>
