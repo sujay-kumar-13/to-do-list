@@ -25,17 +25,25 @@ ToDoList/
 │ └── src/
 │ └── main/
 │ ├── java/com/example/todolist/
-│ │ ├── AddTaskActivity.kt
-│ │ ├── MainActivity.kt
-│ │ ├── SplashActivity.kt
-│ │ ├── TaskAdapter.kt
-│ │ └── TaskModel.kt
+│ │ ├── AddTaskFragment.java
+│ │ ├── Helper.java
+│ │ ├── LoginFragment.java
+│ │ ├── MainActivity.java
+│ │ ├── NotificationHelper.java
+│ │ ├── NotificationReceiver.java
+│ │ ├── ReminderWorker.java
+│ │ ├── SettingsFragment.java
+│ │ ├── TaskListFragment.java
+│ │ └── ThemeUtils.java
 │ ├── res/
 │ │ ├── layout/
-│ │ │ ├── activity_add_task.xml
 │ │ │ ├── activity_main.xml
-│ │ │ ├── activity_splash.xml
-│ │ │ └── item_task.xml
+│ │ │ ├── content_main.xml
+│ │ │ ├── fragment_add_task.xml
+│ │ │ ├── fragment_login.xml
+│ │ │ ├── fragment_settings.xml
+│ │ │ ├── fragment_task_list.xml
+│ │ │ └── task_row.xml
 │ │ ├── drawable/
 │ │ ├── values/
 │ │ └── AndroidManifest.xml
@@ -82,8 +90,7 @@ To get a local copy up and running, follow these simple steps.
 
 ## Future Enhancements
 - Add widget to manage directly from home screen.
-- Add email notifications for bookings.
-- Enable multi-city flight bookings.
+- Multiple device support.
 
 ## License
 This project is licensed under the MIT License.
